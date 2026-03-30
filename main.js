@@ -12,7 +12,7 @@ async function getUrlPhoto() {
     try{
         button.classList.remove('reset-button-inactive');
         button.classList.add('reset-button-active');
-        image.innerHTML = ``;
+        image.innerHTML = `Ищем картинку`;
         const responce = await fetch(
             `https://api.thecatapi.com/v1/images/search?api_key=${accessToken}`
         )

@@ -47,6 +47,8 @@ body {
     box-shadow: 0 0 20px rgba(100, 70, 150, 0.3);
     border-radius: 20px;
     gap: 10px;
+    font-size: 20px;
+    color: #E0E0E0;
 }
 #reset-container {
     display: flex;
