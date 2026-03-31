@@ -47,5 +47,4 @@ function scrollImages(e) {
         currentImage--;
         image.innerHTML = `<img  id='image' src='${history[currentImage]}'></div>`;
     }
-    console.log(e)
 }
