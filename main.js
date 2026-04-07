@@ -21,6 +21,12 @@ async function getUrlPhoto() {
         )
         
         const data = await responce.json();
+        history.forEach(el => {
+            if(el == data[0].url) {
+                this.getUrlPhoto();
+                return
+            }
+        });
         history.push(data[0].url);
         currentImage++;
         
